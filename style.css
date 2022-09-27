@@ -1,0 +1,147 @@
+*{
+    padding: 0; margin: 0;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 15px;
+    box-sizing: border-box;
+    width: 1200;
+    margin: 0 auto;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.menu footer{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.menu li{
+    margin-left: 100px;
+}
+
+.menu li a{
+    color: dimgrey; text-decoration: none;
+}
+
+.menu li a:hover{
+    color: rgb(84, 0, 0); 
+}
+
+.imgsize{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.textstyle h1{
+    margin-left: 100px;
+    margin-top: 80px;
+    font-size: 70;
+}
+
+.textstyle p{
+    margin-left: 100px;
+    margin-top: 30px;
+
+}
+
+.row{
+display: flex;
+margin-left: 100px;
+margin-right: 100px;
+margin-top: 80px;
+}
+
+.col{
+    width: 20%;
+    padding-right: 50px;
+ }
+
+ img{
+    width: 100%;
+}
+
+.size3
+ul {
+    display: flex;
+}
+li{
+    list-style: none;
+    margin-left:120px;
+    color: rgb(172, 172, 172)
+    font-family: Arial, Helvetica, sans-serif;
+    size: 6;
+}
+
+.div{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;  
+    justify-content: center; 
+    margin-top: 80px;         
+}
+
+.btn3{
+    width: 250px;
+    height: 30px;
+    background-color: rgb(245, 245, 245);  
+    color: rgb(160, 160, 160);
+    border-radius: 4px; 
+    border: none;
+    font-size: 12px;
+    font-weight: 500;
+ margin-left: 20px;
+}
+
+.btn{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(0, 125, 160);  
+    color: rgb(255, 255, 255);
+    border-radius: 4px; 
+    border: none;
+    font-size: 12px;
+    font-weight: 800;
+    margin-bottom: 100px;
+
+}
+
+.img footer{
+    margin-left:250px;
+}
+
+.manu footer{
+    width: 50%; 
+    margin-bottom: 80; 
+}
+
+
+
+.list{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    background-color: white;
+    color:gray;
+    
+}
+
+.list li{
+    padding: 15%
+}
